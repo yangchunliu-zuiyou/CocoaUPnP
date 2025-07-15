@@ -27,11 +27,11 @@ let package = Package(
                 .product(name: "AFNetworking", package: "AFNetworking"),
                 "GCDWebServer"
             ],
-            path: "Sources/CocoaUPnP"//,
-            // publicHeadersPath: "../../include/CocoaUPnP",
-            // cSettings: [
-            //     .headerSearchPath("../../include")
-            // ]
+            path: "Sources/CocoaUPnP",
+            publicHeadersPath: "include",
+            cSettings: [
+                .headerSearchPath("include")
+            ]
         )
     ]
 )
