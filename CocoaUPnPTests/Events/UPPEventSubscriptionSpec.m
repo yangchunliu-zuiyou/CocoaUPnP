@@ -3,7 +3,7 @@
 
 #import <OCMock/OCMock.h>
 #import "EXPMatchers+beWithinAMillisecondOf.h"
-#import <CocoaUPnP/CocoaUPnP.h>
+#import "CocoaUPnP.h"
 
 SpecBegin(UPPEventSubscription)
 

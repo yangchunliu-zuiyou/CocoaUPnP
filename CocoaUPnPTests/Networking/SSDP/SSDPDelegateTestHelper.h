@@ -22,7 +22,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <CocoaUPnP/SSDPServiceBrowser.h>
+#import "SSDPServiceBrowser.h"
 
 typedef void (^CallbackBlock)(id firstArgument, id secondArgument);
 

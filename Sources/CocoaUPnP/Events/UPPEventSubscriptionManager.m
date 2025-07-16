@@ -6,6 +6,7 @@
 #import "UPPEventSubscription.h"
 #import "NSArray+firstObjectMatchingPredicate.h"
 #import "UPPError.h"
+#import <UIKit/UIKit.h>
 
 @interface UPPEventSubscriptionManager ()
 @property (strong, nonatomic) NSMutableArray *activeSubscriptions;

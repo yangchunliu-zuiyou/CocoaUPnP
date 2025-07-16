@@ -23,7 +23,7 @@
 //  Copyright 2015 Arcam. See LICENSE file.
 
 #import <Foundation/Foundation.h>
-#import <CocoaAsyncSocket/GCDAsyncUdpSocket.h>
+#import "GCDAsyncUdpSocket.h"
 
 @class SSDPServiceBrowser;
 @class SSDPService;

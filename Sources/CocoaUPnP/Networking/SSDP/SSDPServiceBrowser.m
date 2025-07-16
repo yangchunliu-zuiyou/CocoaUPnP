@@ -27,6 +27,7 @@
 #import "GCDAsyncUdpSocket.h"
 #import "SSDPService.h"
 
+#import <UIKit/UIKit.h>
 #import <ifaddrs.h>
 #import <sys/socket.h>
 #import <net/if.h>

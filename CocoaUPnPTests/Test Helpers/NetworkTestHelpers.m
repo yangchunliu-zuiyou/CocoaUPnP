@@ -2,7 +2,7 @@
 // Copyright 2015 Arcam. See LICENSE file.
 
 #import "NetworkTestHelpers.h"
-#import <CocoaUPnP/CocoaUPnP.h>
+#import "CocoaUPnP.h"
 
 UPPParameters *(^InstanceParams)(void) = ^UPPParameters*(void) {
     return [UPPParameters paramsWithKey:@"InstanceID" value:@"0"];

@@ -3,7 +3,7 @@
 
 #import "PlaybackManager.h"
 
-#import <CocoaUPnP/CocoaUPnP.h>
+#import "CocoaUPnP.h"
 
 @implementation PlaybackManager
 

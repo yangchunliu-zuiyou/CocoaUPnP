@@ -1,8 +1,8 @@
 // CocoaUPnP by A&R Cambridge Ltd, http://www.arcam.co.uk
 // Copyright 2015 Arcam. See LICENSE file.
 
-#import <CocoaUPnP/SSDPServiceBrowser.h>
-#import <CocoaAsyncSocket/GCDAsyncUdpSocket.h>
+#import "SSDPServiceBrowser.h"
+#import "GCDAsyncUdpSocket.h"
 
 // Expose private methods
 @interface SSDPServiceBrowser ()

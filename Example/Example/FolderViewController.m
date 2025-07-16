@@ -4,7 +4,7 @@
 #import "FolderViewController.h"
 #import "PlaybackManager.h"
 
-#import <CocoaUPnP/CocoaUPnP.h>
+#import "CocoaUPnP.h"
 
 @interface FolderViewController () <UITableViewDataSource, UITableViewDelegate>
 @property (strong, nonatomic) IBOutlet UITableView *tableView;

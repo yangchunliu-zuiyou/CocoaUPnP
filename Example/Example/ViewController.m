@@ -5,7 +5,7 @@
 #import "FolderViewController.h"
 #import "PlaybackManager.h"
 
-#import <CocoaUPnP/CocoaUPnP.h>
+#import "CocoaUPnP.h"
 
 @interface ViewController () <UPPDiscoveryDelegate>
 @property (strong, nonatomic) NSMutableArray *devices;
