@@ -13,11 +13,9 @@ let package = Package(
         )
     ],
     dependencies: [
-        // .package(url: "https://github.com/robbiehanson/CocoaAsyncSocket", from: "7.6.4"),
-        .package(url: "https://github.com/robbiehanson/CocoaAsyncSocket.git", branch: "master"),
-        .package(url: "https://github.com/AFNetworking/AFNetworking", from: "4.0.1"),
-        // .package(url: "https://github.com/swisspol/GCDWebServer.git", from: "3.6.3") // or your forked version
-        .package(url: "https://github.com/yene/GCDWebServer.git", from: "3.5.7")
+        .package(url: "https://github.com/robbiehanson/CocoaAsyncSocket", from: "7.6.5"), // 20250716可见的最新版本: 7.6.5
+        .package(url: "https://github.com/AFNetworking/AFNetworking", from: "4.0.1"), // 20250716可见的最新版本: 4.0.1
+        .package(url: "https://github.com/yene/GCDWebServer", from: "3.5.7") // 20250716可见的最新版本: 3.5.7
     ],
     targets: [
         .target(
