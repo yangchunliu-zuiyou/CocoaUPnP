@@ -1,5 +1,0 @@
-scheme "Example"
-workspace "Example/Example.xcworkspace"
-clean true
-code_coverage true
-
